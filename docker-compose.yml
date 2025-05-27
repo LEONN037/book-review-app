@@ -11,8 +11,6 @@ services:
     build: ./bookreviewfrontend
     ports:
       - "3000:3000"
-    volumes:
-      - ./bookreviewfrontend:/app
     stdin_open: true
     tty: true
     restart: unless-stopped
