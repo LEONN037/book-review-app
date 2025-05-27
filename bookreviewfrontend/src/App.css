@@ -1,0 +1,184 @@
+body {
+  font-family: 'Segoe UI';
+  background-color: #eeeeff;
+  margin: 0;
+  padding: 0;
+  color: #003366;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1, h2 {
+  color: #000000;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.top-bar {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-book-btn {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 0px;
+}
+
+.add-book-btn:hover {
+  background-color: #0066aa;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border: 2px solid #ccc;
+  table-layout: fixed;
+}
+
+.book-table th,
+.book-table td {
+  padding: 0.5rem 0.5rem;
+  text-align: left;
+  border: 1px solid #cccccc;
+  vertical-align: middle;
+  word-wrap: break-word;
+}
+
+.book-table th {
+  background-color: #ccddff;
+  font-weight: bold;
+}
+
+.book-table img {
+  display: block;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.clickable-row {
+  cursor: pointer;
+}
+
+.clickable-row:hover {
+  background-color: #f0f5ff;
+}
+
+.book-details-layout {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+  height: 700px;
+}
+
+.book-info {
+  max-width: 300px;
+}
+
+.cover-container {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.cover-container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.add-review-btn {
+  margin-top: 2rem;
+}
+
+.book-reviews-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #003366;
+  padding-left: 1rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+.review-list {
+  overflow-y: auto;
+  margin-top: 0px;
+  padding-left: 1.5rem;
+}
+
+.review-list li {
+  margin-bottom: 0.5rem;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.review-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.review-form label {
+  margin-right: 0.5rem;
+}
+
+.review-form button {
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #0066cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0066aa;
+}
+
+.book-form .form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.book-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.cancel-btn {
+  background-color: #ea1f37;
+  color: white;
+  margin-left: 1rem
+}
+
+.cancel-btn:hover {
+  background-color: #d8142a;
+}
